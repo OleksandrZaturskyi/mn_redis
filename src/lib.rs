@@ -1,5 +1,4 @@
 use std::time::Duration;
-
 use bytes::Bytes;
 use mini_redis::client::{self, Client, Message, Subscriber};
 use mini_redis::Result;
