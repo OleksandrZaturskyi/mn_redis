@@ -1,3 +1,5 @@
+pub mod blocking_client;
+
 use mini_redis::client;
 use tokio_stream::StreamExt;
 
